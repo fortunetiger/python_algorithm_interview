@@ -6,12 +6,8 @@ class Solution(object):
         :rtype: str
         """
         
-        words = re.split('[!?\',;. ]', str(paragraph).lower())
-                       
-        dic = set(words)
-        
-        print(dic)
-                       
+        words = re.split('[!?\',;. ]', str(paragraph).lower())           
+        dic = set(words)                 
                        
         maximum = 0
         answer = ""
