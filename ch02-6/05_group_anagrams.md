@@ -16,8 +16,8 @@ class Solution(object):
 Runtime: 1192 ms<br>
 Memory Usage: 17.2 MB<br>
 - dictionary 초기화하지 않고 시작, key 유무판정이 들어가서 느림. 매우느림...
-- unicode에 str씌우는거 빼버림(불필요)
-<br>
+- unicode에 str씌우는거 빼버림(불필요)<br>
+
 ### 2회 시도
 ```python
 class Solution(object):
