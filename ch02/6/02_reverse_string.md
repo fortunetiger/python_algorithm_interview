@@ -10,7 +10,7 @@ class Solution(object):
         :rtype: None Do not return anything, modify s in-place instead.
         """
         
-        s = s.reverse()
+        s.reverse()
 ```
-* Runtime: 160 ms, faster than 89.56% of Python online submissions for Reverse String.
-* Memory Usage: 21.3 MB, less than 31.00% of Python online submissions for Reverse String.
+* Runtime: 212 ms, faster than 87.03% of Python3 online submissions for Reverse String.
+* Memory Usage: 18.3 MB, less than 83.38% of Python3 online submissions for Reverse String.
