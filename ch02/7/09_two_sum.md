@@ -52,5 +52,5 @@ class Solution:
                 return [nums_map[target-num], i]
             nums_map[num] = i
 ```
-* Runtime: 766 ms, faster than 28.69% of Python3 online submissions for Two Sum.
-* Memory Usage: 14.9 MB, less than 96.12% of Python3 online submissions for Two Sum.
+* Runtime: 122 ms, faster than 69.92% of Python3 online submissions for Two Sum.
+* Memory Usage: 15.1 MB, less than 54.58% of Python3 online submissions for Two Sum.
