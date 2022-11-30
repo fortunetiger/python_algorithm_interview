@@ -1,3 +1,5 @@
+# Two Sum
+[leetcode.com/problems/two-sum](leetcode.com/problems/two-sum)
 ```python
 class Solution(object):
     def twoSum(self, nums, target):
@@ -25,7 +27,17 @@ class Solution(object):
 ```
 무식하게 풂
 
-Runtime: 116 ms
+* Runtime: 116 ms
+* Memory Usage: 13.3 MB
 
-Memory Usage: 13.3 MB
-
+2022-11-30
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        for i, n in enumerate(nums):
+            c = target-n
+            if c in nums[i+1:]:
+                return [i, nums[i+1:].index(c)+(i+1)]
+```
+* Runtime: 766 ms, faster than 28.69% of Python3 online submissions for Two Sum.
+* Memory Usage: 14.9 MB, less than 96.12% of Python3 online submissions for Two Sum.
