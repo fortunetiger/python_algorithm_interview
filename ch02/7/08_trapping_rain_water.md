@@ -1,6 +1,7 @@
 # Trapping Rain Water
 [leetcode.com/problems/trapping-rain-water/](https://leetcode.com/problems/trapping-rain-water/)
 
+### 스택을 사용한 풀이
 ```python
 class Solution:
     def trap(self, height: List[int]) -> int:
@@ -23,3 +24,5 @@ class Solution:
             stack.append(i)
         return volume
 ```
+* Runtime: 322 ms
+* Memory Usage: 15.8 MB
