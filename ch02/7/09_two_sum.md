@@ -41,3 +41,16 @@ class Solution:
 ```
 * Runtime: 766 ms, faster than 28.69% of Python3 online submissions for Two Sum.
 * Memory Usage: 14.9 MB, less than 96.12% of Python3 online submissions for Two Sum.
+
+### dictionary를 사용한 구현
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        nums_map = {}
+        for i, num in enumerate(nums):
+            if target-num in nums_map:
+                return [nums_map[target-num], i]
+            nums_map[num] = i
+```
+* Runtime: 766 ms, faster than 28.69% of Python3 online submissions for Two Sum.
+* Memory Usage: 14.9 MB, less than 96.12% of Python3 online submissions for Two Sum.
