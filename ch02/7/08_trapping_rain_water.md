@@ -1,5 +1,5 @@
 # Trapping Rain Water
-[leetcode.com/problems/trapping-rain-water](leetcode.com/problems/trapping-rain-water)
+[leetcode.com/problems/trapping-rain-water/](https://leetcode.com/problems/trapping-rain-water/)
 
 ```python
 class Solution:
